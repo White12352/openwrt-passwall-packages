@@ -58,7 +58,7 @@ define Package/$(PKG_NAME)/config
 
     config SING_BOX_WITH_CLASH_API
       bool "Build with Clash API support (EXPERIMENTAL!!!)"
-      default y
+      default n
 
     config SING_BOX_WITH_DHCP
       bool "Build with DHCP support"
@@ -70,14 +70,14 @@ define Package/$(PKG_NAME)/config
 
     config SING_BOX_WITH_GRPC
       bool "Build with standard gRPC support"
-      default n
+      default y
       help
       sing-box has better performance gun-lite gRPC built-in by default.
       This standard gRPC has better compatibility but poor performance.
 
     config SING_BOX_WITH_GVISOR
       bool "Build with gVisor support"
-      default n
+      default y
 
     config SING_BOX_WITH_QUIC
       bool "Build with QUIC support"
@@ -92,7 +92,7 @@ define Package/$(PKG_NAME)/config
 
     config SING_BOX_WITH_SHADOWSOCKSR
       bool "Build with ShadowsockR support"
-      default n
+      default y
 
     config SING_BOX_WITH_UTLS
       bool "Build with uTLS support"
