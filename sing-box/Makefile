@@ -70,7 +70,7 @@ define Package/$(PKG_NAME)/config
 
     config SING_BOX_WITH_GRPC
       bool "Build with standard gRPC support"
-      default y
+      default n
       help
       sing-box has better performance gun-lite gRPC built-in by default.
       This standard gRPC has better compatibility but poor performance.
