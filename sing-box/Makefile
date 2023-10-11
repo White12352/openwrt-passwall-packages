@@ -5,13 +5,13 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=dev-nex
+PKG_NAME:=nias
 PKG_VERSION:=1.6.0-alpha.4
 PKG_RELEASE:=1
 
-PKG_SOURCE:=dev-next.tar.gz
+PKG_SOURCE:sing-box.tar.gz
 PKG_SOURCE_URL:=https://github.com/White12352/nias/archive
-PKG_HASH:=c90b3e74c5996a25e48a87c9d2b357bc0711c108b10e1466822d1569c474b785
+PKG_HASH:=bd9ed4c149c961488c9b1b8ef56976c0ec526c950cd47812f4b3c1c7bfd49686
 
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=LICENSE
