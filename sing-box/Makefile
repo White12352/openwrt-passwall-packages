@@ -5,7 +5,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=nias
+PKG_NAME:=sing-box
 PKG_VERSION:=1.6.0-alpha.4
 PKG_RELEASE:=1
 
