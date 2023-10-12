@@ -10,8 +10,8 @@ PKG_VERSION:=1.6.0-beta.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/White12352/nias/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=29ffe2356bb2647efd392e03c088a4a2bcf3989689b6cf0576eddd29790de0df
+PKG_SOURCE_URL:=https://codeload.github.com/White12352/sing-box/tar.gz/v$(PKG_VERSION)?
+PKG_HASH:=7d965be068840306c545ad787e29c953d5bcda6d4f77e55c498ee0fa46d2ed26
 
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=LICENSE
