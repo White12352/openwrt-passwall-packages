@@ -5,13 +5,13 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=nias
-PKG_VERSION:=1.6.0-alpha.4
+PKG_NAME:=sing-box
+PKG_VERSION:=1.6.0-beta.1
 PKG_RELEASE:=1
 
-PKG_SOURCE:=sing-box.tar.gz
-PKG_SOURCE_URL:=https://github.com/White12352/nias/archive
-PKG_HASH:=bd9ed4c149c961488c9b1b8ef56976c0ec526c950cd47812f4b3c1c7bfd49686
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/White12352/nias/tar.gz/v$(PKG_VERSION)?
+PKG_HASH:=29ffe2356bb2647efd392e03c088a4a2bcf3989689b6cf0576eddd29790de0df
 
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=LICENSE
